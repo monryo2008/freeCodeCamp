@@ -1,6 +1,6 @@
 ---
 id: 587d7791367417b2b2512ab3
-title: Crea balance visual usando la propiedad text-align
+title: Crea un balance visual usando la propiedad text-align
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/c3b4EAp'
 forumTopicId: 301053

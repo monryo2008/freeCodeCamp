@@ -15,7 +15,7 @@ Sin embargo, usar la propiedad `flex-wrap` le indica al CSS que envuelva los ele
 
 CSS también tiene opciones para la dirección de la envoltura:
 
-<ul><li><code>nowrap</code>: esta es la configuración predeterminada, y no envuelve elementos.</li><li><code>wrap</code>: envuelve elementos de izquierda a derecha si están en una fila, o de arriba hacia abajo si están en una columna.</li><li><code>wrap-reverse</code>: envuelve elementos de derecha a izquierda si están en una fila, o de abajo hacia arriba si están en una columna.</li></ul>
+<ul><li><code>nowrap</code>: esta es la configuración predeterminada, y no envuelve elementos.</li><li><code>wrap</code>: wraps items onto multiple lines from top-to-bottom if they are in rows and left-to-right if they are in columns.</li><li><code>wrap-reverse</code>: wraps items onto multiple lines from bottom-to-top if they are in rows and right-to-left if they are in columns.</li></ul>
 
 # --instructions--
 

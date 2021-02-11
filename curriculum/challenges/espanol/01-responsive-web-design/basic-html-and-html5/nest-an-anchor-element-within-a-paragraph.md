@@ -17,21 +17,33 @@ Puedes anidar enlaces dentro de otros elementos de texto.
 </p>
 ```
 
-Vamos a desglosar el ejemplo: El texto regular está envuelto en el elemento `p`:  
-`<p> Here's a ... for you to follow. </p>` Le sigue el elemento *anchor* `<a>` (el cual requiere una etiqueta de cierre `</a>`):  
-`<a> ... </a>`. `target` es un atributo de la etiqueta anchor que especifica donde abrir el enlace y el valor `_blank` especifica abrir el enlace en una nueva pestaña, `href` es un atributo de la etiqueta anchor que contiene la dirección URL del enlace:  
-`<a href="http://freecodecamp.org"> ... </a>`. El texto, **"link to freecodecamp.org"**, dentro del elemento `a` llamado `anchor text`, mostrará un enlace para hacer click:  
-`<a href=" ... ">link to freecodecamp.org</a>`. El resultado final del ejemplo se verá así:
+Let's break down the example. Normal text is wrapped in the `p` element:
 
-Aquí hay un enlace [a freecodecamp.org](http://freecodecamp.org) para que lo sigas.
+`<p> Here's a ... for you to follow. </p>`
+
+Next is the *anchor* element `<a>` (which requires a closing tag `</a>`):
+
+`<a> ... </a>`
+
+`target` is an anchor tag attribute that specifies where to open the link. The value `_blank` specifies to open the link in a new tab. The `href` is an anchor tag attribute that contains the URL address of the link:
+
+`<a href="http://freecodecamp.org"> ... </a>`
+
+The text, `link to freecodecamp.org`, within the `a` element is called `anchor text`, and will display the link to click:
+
+`<a href=" ... ">link to freecodecamp.org</a>`
+
+The final output of the example will look like this:
+
+Here's a [link to freecodecamp.org](http://freecodecamp.org) for you to follow.
 
 # --instructions--
 
-Anida el elemento `a` existente dentro de un nuevo elemento `p`. El nuevo párrafo debe tener un texto que diga `View more cat photos`, donde `cat photos` es un enlace, y el resto es texto regular.
+Nest the existing `a` element within a new `p` element. The new paragraph should have text that says `View more cat photos`, where `cat photos` is a link, and the rest is plain text.
 
 # --hints--
 
-Debes tener un elemento `a` que enlace a "`https://freecatphotoapp.com`".
+You should have an `a` element that links to "`https://freecatphotoapp.com`".
 
 ```js
 assert(
@@ -40,7 +52,7 @@ assert(
 );
 ```
 
-Tu elemento `a` debe contener el texto anchor de `cat photos`
+Your `a` element should have the anchor text of `cat photos`
 
 ```js
 assert(
@@ -50,13 +62,13 @@ assert(
 );
 ```
 
-Debes crear un nuevo elemento `p` alrededor de tu elemento `a`. Debe haber al menos 3 etiquetas `p` en tu código HTML.
+You should create a new `p` element around your `a` element. There should be at least 3 total `p` tags in your HTML code.
 
 ```js
 assert($('p') && $('p').length > 2);
 ```
 
-Tu elemento `a` debe ser anidado dentro de tu nuevo elemento `p`.
+Your `a` element should be nested within your new `p` element.
 
 ```js
 assert(
@@ -65,7 +77,7 @@ assert(
 );
 ```
 
-Tu elemento `p` debe contener el texto `View more` (con un espacio después de él).
+Your `p` element should have the text `View more` (with a space after it).
 
 ```js
 assert(
@@ -80,7 +92,7 @@ assert(
 );
 ```
 
-Tu elemento `a` <em>no</em> debe tener el texto `View more`.
+Your `a` element should <em>not</em> have the text `View more`.
 
 ```js
 assert(
@@ -90,7 +102,7 @@ assert(
 );
 ```
 
-Cada uno de tus elementos `p` debe tener una etiqueta de cierre.
+Each of your `p` elements should have a closing tag.
 
 ```js
 assert(
@@ -100,7 +112,7 @@ assert(
 );
 ```
 
-Cada uno de tus elementos `a` debe tener una etiqueta de cierre.
+Each of your `a` elements should have a closing tag.
 
 ```js
 assert(

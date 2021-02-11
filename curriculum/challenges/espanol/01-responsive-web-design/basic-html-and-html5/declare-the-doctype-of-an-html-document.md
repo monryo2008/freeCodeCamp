@@ -19,12 +19,12 @@ El `!` y `DOCTYPE` en mayúsculas es importante, especialmente para los navegado
 
 A continuación, el resto de tu código HTML necesita ser envuelto en etiquetas `html`. La apertura `<html>` va directamente debajo de la línea `<!DOCTYPE html>`, y el cierre `</html>` va en el final de la página.
 
-Aquí hay un ejemplo de estructura de página:
+Here's an example of the page structure. Your HTML code would go in the space between the two `html` tags.
 
 ```html
 <!DOCTYPE html>
 <html>
-  <!-- Your HTML code goes here -->
+
 </html>
 ```
 

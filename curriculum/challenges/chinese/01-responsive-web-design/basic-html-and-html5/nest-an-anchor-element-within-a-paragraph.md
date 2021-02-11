@@ -17,21 +17,33 @@ dashedName: nest-an-anchor-element-within-a-paragraph
 </p>
 ```
 
-我们来分解一下这个示例：普通文本被包裹在 `p` 元素中，例如   
-`<p> Here's a ... for you to follow. </p>` 然后是 *anchor* 元素 `<a>`（要求有一个结束标签 `</a>`）：  
-`<a> ... </a>` `target` 是一个锚点标签属性，用来指定在哪里打开链接，`_blank` 值指定在一个新的窗口打开链接，`href` 是一个锚点标签属性，包含链接的 URL 地址  
-`<a href="http://freecodecamp.org"> ... </a>`。`a` 元素中的文本，**“链接到 freecodecamp.org”**，叫作 `anchor text`，将显示一个可点击的链接：  
-`<a href=" ... ">link to freecodecamp.org</a>`。 这个示例最后输出的结果像这样：
+Let's break down the example. Normal text is wrapped in the `p` element:
 
-你可以点击这个 [freecodecamp.org 链接](http://freecodecamp.one)。
+`<p> Here's a ... for you to follow. </p>`
+
+Next is the *anchor* element `<a>` (which requires a closing tag `</a>`):
+
+`<a> ... </a>`
+
+`target` is an anchor tag attribute that specifies where to open the link. The value `_blank` specifies to open the link in a new tab. The `href` is an anchor tag attribute that contains the URL address of the link:
+
+`<a href="http://freecodecamp.org"> ... </a>`
+
+The text, `link to freecodecamp.org`, within the `a` element is called `anchor text`, and will display the link to click:
+
+`<a href=" ... ">link to freecodecamp.org</a>`
+
+The final output of the example will look like this:
+
+Here's a [link to freecodecamp.org](http://freecodecamp.org) for you to follow.
 
 # --instructions--
 
-创建一个新的段落（`p`）标签来包裹 `main` 元素里的 `a` 节点。 新段落应有文本 `View more cat photos`，其中 `cat photos` 是一个链接，其余是纯文本。
+Nest the existing `a` element within a new `p` element. The new paragraph should have text that says `View more cat photos`, where `cat photos` is a link, and the rest is plain text.
 
 # --hints--
 
-应包含一个链接到 "`https://freecatphotoapp.com`" 的 `a` 元素。
+You should have an `a` element that links to "`https://freecatphotoapp.com`".
 
 ```js
 assert(
@@ -40,7 +52,7 @@ assert(
 );
 ```
 
-`a` 元素应有锚文本 `cat photos`。
+Your `a` element should have the anchor text of `cat photos`
 
 ```js
 assert(
@@ -50,13 +62,13 @@ assert(
 );
 ```
 
-你应该在 `a` 标签的外部创建一个新的 `p` 标签。 页面中应至少包含 3 个 `p` 标签。
+You should create a new `p` element around your `a` element. There should be at least 3 total `p` tags in your HTML code.
 
 ```js
 assert($('p') && $('p').length > 2);
 ```
 
-`a` 应嵌套在新创建的 `p` 元素内。
+Your `a` element should be nested within your new `p` element.
 
 ```js
 assert(
@@ -65,7 +77,7 @@ assert(
 );
 ```
 
-`p` 元素应有文本 `View more`（后面有一个空格）。
+Your `p` element should have the text `View more` (with a space after it).
 
 ```js
 assert(
@@ -80,7 +92,7 @@ assert(
 );
 ```
 
-`a` 元素 <em>不</em> 应有文本 `View more`。
+Your `a` element should <em>not</em> have the text `View more`.
 
 ```js
 assert(
@@ -90,7 +102,7 @@ assert(
 );
 ```
 
-确保每个 `p` 元素有结束标签。
+Each of your `p` elements should have a closing tag.
 
 ```js
 assert(
@@ -100,7 +112,7 @@ assert(
 );
 ```
 
-确保每个 `a` 元素有结束标签。
+Each of your `a` elements should have a closing tag.
 
 ```js
 assert(

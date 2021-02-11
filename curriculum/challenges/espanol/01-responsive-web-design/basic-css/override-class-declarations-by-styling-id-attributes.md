@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd8aedf06756
-title: Sobreescribe las declaraciones de clase dando estilo a atributos ID
+title: Sobreescribe declaraciones de clase dando estilo a atributos ID
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cRkpDhB'
 forumTopicId: 18251
@@ -31,7 +31,7 @@ Crea una declaración CSS para el id `orange-text` en el elemento `style`. Aquí
 }
 ```
 
-**Nota:** No importa si declaras el CSS arriba o debajo de la clase pink-text, ya que el atributo id siempre tendrá precedencia.
+**Note:** It doesn't matter whether you declare this CSS above or below `pink-text` class, since the `id` attribute will always take precedence.
 
 # --hints--
 

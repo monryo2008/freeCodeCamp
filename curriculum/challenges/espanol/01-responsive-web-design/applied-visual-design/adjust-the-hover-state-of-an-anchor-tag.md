@@ -1,6 +1,6 @@
 ---
 id: 587d781d367417b2b2512ac8
-title: Ajustar el hover de una etiqueta ancla
+title: Ajusta el hover de una etiqueta anchor
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cakRGcm'
 forumTopicId: 301035

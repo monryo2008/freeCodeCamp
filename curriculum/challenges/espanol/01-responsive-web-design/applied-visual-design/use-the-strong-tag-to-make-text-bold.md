@@ -1,6 +1,6 @@
 ---
 id: 587d781a367417b2b2512ab7
-title: Usa la etiqueta fuerte para hacer que el texto sea negrita
+title: Utiliza la etiqueta strong para poner el texto en negrita
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/ceJNBSb'
 forumTopicId: 301080

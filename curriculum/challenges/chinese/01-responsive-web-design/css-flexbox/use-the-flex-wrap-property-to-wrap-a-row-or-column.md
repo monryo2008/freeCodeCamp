@@ -15,7 +15,7 @@ CSS flexbox 有一个把 flex 子元素拆分为多行（或多列）的特性�
 
 换行方向的可选值有这些：
 
-<ul><li><code>nowrap</code>：默认值，不换行。</li><li><code>wrap</code>：行从上到下排，列从左到右排。</li><li><code>wrap-reverse</code>：行从下到上排，列从右到左排。</li></ul>
+<ul><li><code>nowrap</code>：默认值，不换行。</li><li><code>wrap</code>: wraps items onto multiple lines from top-to-bottom if they are in rows and left-to-right if they are in columns.</li><li><code>wrap-reverse</code>: wraps items onto multiple lines from bottom-to-top if they are in rows and right-to-left if they are in columns.</li></ul>
 
 # --instructions--
 
